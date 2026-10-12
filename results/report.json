@@ -1,0 +1,31 @@
+{
+  "project": "battery-dispatch-sim",
+  "data_kind": "deterministic_synthetic",
+  "seed": 39,
+  "interval_hours": 1,
+  "capacity_kwh": 24.0,
+  "soc_limits_kwh": {
+    "minimum": 2.0,
+    "maximum": 22.0
+  },
+  "max_charge_or_discharge_kw": 7.0,
+  "charge_efficiency": 0.95,
+  "discharge_efficiency": 0.95,
+  "load_peak_kw": 35.4408,
+  "grid_import_peak_kw": 31.0,
+  "peak_reduction_kw": 4.4408,
+  "load_energy_kwh": 457.9487,
+  "grid_import_energy_kwh": 451.9989,
+  "battery_charge_input_kwh": 10.5263,
+  "battery_discharge_output_kwh": 16.4761,
+  "estimated_conversion_losses_kwh": 1.393479,
+  "initial_soc_kwh": 12.0,
+  "final_soc_kwh": 4.656737,
+  "max_soc_balance_residual_kwh": 0.0,
+  "energy_conservation_residual_kwh": 0.0,
+  "limitations": [
+    "The hourly load and all battery parameters are illustrative synthetic inputs.",
+    "No degradation, tariff, reserve requirement, inverter dynamics, or uncertainty is modeled.",
+    "Peak reduction is a simulator result, not a verified site saving or dispatch recommendation."
+  ]
+}
